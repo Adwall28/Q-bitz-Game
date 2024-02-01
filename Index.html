@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-bitz: Visual Dexterity. Cubed</title>
+    <link rel="icon" type="image/png" href="Images/Q-bitzBox.jpg"/>
+    <link rel="stylesheet" type="text/css" href="Main.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="Script.js"></script>
+</head>
+<body>
+    <div class="GridContainer"> <!--Making a grid to line up things better-->
+        <div class="LeftTop">
+            <p id="Logo">Q-bitz</p>
+        </div>
+        <div class="MiddleTop">
+            <p id="Timer">00:00</p>
+        </div>
+
+        <div class="RightTop">
+            <button class ="Button" id="ExitButton">Exit</button>
+            <button class="Button" id="MenuButton">Menu</button>
+        </div>
+
+        <div class="MiddleLeft">
+            <h2>VISUAL DEXTERITY. CUBED</h2>
+        </div>
+
+        <div class="MiddleCenter">
+            <div id="MiniTile">
+                <div class="MiniCubePlacement"  id="MiniCubeOne"> <!--These represent each cube-->
+                </div>
+                <div class="MiniCubePlacement" id="MiniCubeTwo">
+                </div>
+                <div class="MiniCubePlacement" id="MiniCubeThree">
+                </div>
+                <div class="MiniCubePlacement" id="MiniCubeFour">
+                </div>
+                <div class="MiniCubePlacement" id="MiniCubeFive">
+                </div>
+                <div class="MiniCubePlacement" id="MiniCubeSix">
+                </div>
+                <div class="MiniCubePlacement" id="MiniCubeSeven">
+                </div>
+                <div class="MiniCubePlacement" id="MiniCubeEight">
+                </div>
+                <div class="MiniCubePlacement" id="MiniCubeNine">
+                </div>
+                <div class="MiniCubePlacement" id="MiniCubeTen">
+                </div>
+                <div class="MiniCubePlacement" id="MiniCubeEleven">
+                </div>
+                <div class="MiniCubePlacement" id="MiniCubeTwelve">
+                </div>
+                <div class="MiniCubePlacement" id="MiniCubeThirteen">
+                </div>
+                <div class="MiniCubePlacement" id="MiniCubeFourteen">
+                </div>
+                <div class="MiniCubePlacement" id="MiniCubeFifteen">
+                </div>
+                <div class="MiniCubePlacement" id="MiniCubeSixteen">
+                </div>
+            </div>
+        </div>
+
+        <div class="MiddleRight">
+
+        </div>
+
+        <div class="Bottom">
+            <div id="PlayerTile">
+                <div class="CubePlacement"  id="CubeOne"> <!--These represent each cube-->
+                </div>
+                <div class="CubePlacement" id="CubeTwo">
+                </div>
+                <div class="CubePlacement" id="CubeThree">
+                </div>
+                <div class="CubePlacement" id="CubeFour">
+                </div>
+                <div class="CubePlacement" id="CubeFive">
+                </div>
+                <div class="CubePlacement" id="CubeSix">
+                </div>
+                <div class="CubePlacement" id="CubeSeven">
+                </div>
+                <div class="CubePlacement" id="CubeEight">
+                </div>
+                <div class="CubePlacement" id="CubeNine">
+                </div>
+                <div class="CubePlacement" id="CubeTen">
+                </div>
+                <div class="CubePlacement" id="CubeEleven">
+                </div>
+                <div class="CubePlacement" id="CubeTwelve">
+                </div>
+                <div class="CubePlacement" id="CubeThirteen">
+                </div>
+                <div class="CubePlacement" id="CubeFourteen">
+                </div>
+                <div class="CubePlacement" id="CubeFifteen">
+                </div>
+                <div class="CubePlacement" id="CubeSixteen">
+                </div>
+            </div>
+
+            <div id="Cube">
+                <div class="CubeSide" id="TopSide">
+                    <div id="WhiteCircle"></div>
+                </div>
+                <div class="CubeSide" id="LeftSide">
+                </div>
+                <div class="CubeSide" id="RightSide">   
+                </div>
+                <div class="CubeSide" id="FrontSide">
+                    <div id="LeftTriangle"></div>
+                </div>
+                <div class="CubeSide" id="BottomSide">
+                    <div id="RedCircle"></div>
+                </div>
+                <div class="CubeSide" id="BackSide">
+                    <div id="RightTriangle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
