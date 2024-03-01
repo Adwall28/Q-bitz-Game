@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Q-bitz: Visual Dexterity. Cubed</title>
-    <link rel="icon" type="image/png" href="Images/Q-bitzBox.jpg"/>
+    <title>Patternz</title>
     <link rel="stylesheet" type="text/css" href="Main.css" />
     <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
@@ -13,7 +12,7 @@
 <body>
     <div class="GridContainer"> <!--Making a grid to line up things better-->
         <div class="LeftTop">
-            <p id="Logo">Q-bitz</p>
+            <p id="Logo">Patternz</p>
         </div>
         <div class="MiddleTop">
             <p id="Timer">00:00</p>
@@ -22,15 +21,15 @@
         <div class="RightTop">
             <button class ="Button" id="ExitButton">Exit</button>
             <button class="Button" id="MenuButton">Menu</button>
+            <p>There is a How-To-Play in the Menu</p>
         </div>
 
         <div class="MiddleLeft">
-            <h2>VISUAL DEXTERITY. CUBED</h2>
         </div>
 
         <div class="MiddleCenter">
             <div id="MiniTile">
-                <div class="MiniCubePlacement"  id="MiniCubeOne"> <!--These represent each cube-->
+                <div class="MiniCubePlacement"  id="MiniCubeOne"> <!--These represent each cube within the mini tile-->
                 </div>
                 <div class="MiniCubePlacement" id="MiniCubeTwo">
                 </div>
@@ -71,7 +70,7 @@
 
         <div class="Bottom">
             <div id="PlayerTile">
-                <div class="CubePlacement"  id="CubeOne"> <!--These represent each cube-->
+                <div class="CubePlacement"  id="CubeOne"> <!--These represent each cube within the player's tile-->
                 </div>
                 <div class="CubePlacement" id="CubeTwo">
                 </div>
@@ -104,7 +103,7 @@
                 <div class="CubePlacement" id="CubeSixteen">
                 </div>
             </div>
-
+            
             <div id="Cube">
                 <div class="CubeSide" id="TopSide">
                     <div id="WhiteCircle"></div>
